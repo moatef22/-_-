@@ -1,0 +1,197 @@
+/* Apply a modern and appealing font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(123, 210, 225);
+}
+
+/* Style the header and navigation */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff5722; /* Change link color on hover */
+}
+
+/* Style the hero section with background image and overlay */
+.hero {
+    background-image: url('https://img.freepik.com/free-vector/modern-abstract-blue-background-with-elegant-elements-vector-illustration_361591-3696.jpg?size=626&ext=jpg&ga=GA1.1.1194900701.1697708817&semt=ais');
+    background-size: cover;
+    text-align: center;
+    padding: 230px 0;
+    color: #fff;
+}
+
+.hero-content {
+    background: rgba(0, 0, 0, 0.6); /* Add a semi-transparent overlay */
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Style the buttons with hover effects */
+.btn {
+    display: inline-block;
+    background-color: #ff5722;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #333; /* Change button color on hover */
+}
+
+/* Add subtle box shadow to sections */
+.section {
+    margin: 20px 0;
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+.about{
+    background-color: rgb(141, 204, 204);
+    background-size: cover;
+    padding: 230px 0;
+    color: #080707;
+}
+
+
+
+
+.contact{
+    background-color: rgb(42, 70, 70);
+    background-size: cover;
+    padding: 30px 0;
+    color: #080707;
+}
+
+.products{
+    background-color: rgb(197, 229, 229);
+    padding: 100px 0;
+    color: #080707;
+}
+
+
+  div.gallery {
+    border: 1px solid #ccc;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    align-items: start;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+
+.textstyle{
+    color: #080707;
+    font-size: xx-large;
+    text-align: center;
+  }
+
+
+  .prestyle{
+    font-size: x-large;
+    font-style: normal;
+  }
+
+/*.aleft{
+  float: left;
+}
+
+.aright{
+  float: right;
+}*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.topnav-right {
+  float: right;
+}
